@@ -1,0 +1,4 @@
+Take a number as input.
+Check if it's even or odd using modulus % — print "Even" or "Odd" (just use print for now, no if/else yet).
+a = int(input("Enter a number: "))
+print("The number is:", "Even" if a % 2 == 0 else "Odd")
