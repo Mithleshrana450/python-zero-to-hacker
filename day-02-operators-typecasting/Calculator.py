@@ -10,12 +10,18 @@
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
 
-print(a+b)
-print(a-b)
-print(a*b)
-
-if b == 0:
-    print("Division can't be performed by zero")
+if op == "+":
+    print("Result:", a + b)
+elif op == "-":
+    print("Result:", a - b)
+elif op == "*":
+    print("Result:", a * b)
+elif op == "/":
+    if b == 0:
+        print("Cannot divide by zero")
+    else:
+        print("Result:", a / b)
 else:
-    print(a/b)
+    print("Invalid operator")
