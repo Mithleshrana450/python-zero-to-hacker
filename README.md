@@ -24,6 +24,7 @@ to ethical hacker and cybersecurity expert.
 | Day 1 | Variables, Data Types, Input/Output | ✅ |
 | Day 2 | Operators, Type Casting, Truthiness | ✅ |
 | Day 3 | If/Else, Nested Conditions, Logic Building | ✅ |
+| Day 4 | Loops — for, while, break, continue | ✅ |
 
 ## Goal
 Become a Python Master + Ethical Hacker 🎯
