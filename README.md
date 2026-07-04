@@ -218,9 +218,9 @@ while not_an_expert:
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-000000?style=for-the-badge)](https://mithleshrana-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-000000?style=for-the-badge)](https://mithleshrana450.github.io/mithleshrana-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mithleshrana450)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mithleshrana)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mithleshrana450/)
 
 </div>
 
