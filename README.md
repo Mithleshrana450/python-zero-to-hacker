@@ -1,53 +1,59 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=700&lines=Python+for+Ethical+Hacking;4+Month+Intensive+Journey;From+Zero+to+Penetration+Tester" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=750&lines=Python+for+Ethical+Hacking+%F0%9F%90%8D;4+Month+Intensive+Journey+%F0%9F%94%90;From+Zero+to+Penetration+Tester+%F0%9F%8E%AF;Daily+Commits+%E2%80%94+Building+in+Public+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/><br/>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)](https://kali.org)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
+[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com)
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-<br/>
-
-![Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen?style=flat-square)
-![Days](https://img.shields.io/badge/Current%20Day-4-blue?style=flat-square)
-![Start](https://img.shields.io/badge/Started-July%202026-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-5-blue?style=flat-square)
+![Current Phase](https://img.shields.io/badge/Phase-1%20Foundations-orange?style=flat-square)
+![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
 
 </div>
 
 ---
 
-## 👤 About This Repository
+## 👤 About
 
 ```python
-student = {
-    "name"      : "Mithlesh Rana",
-    "degree"    : "BCA Cyber Security",
-    "university": "Parul University, Surat",
-    "mission"   : "Python Master + Ethical Hacker",
-    "timeline"  : "4 Months Intensive — July to November 2026",
-    "focus"     : ["Penetration Testing", "Security Automation",
-                   "Ethical Hacking Tools", "Bug Bounty Scripting"]
+hacker = {
+    "name"        : "Mithlesh Rana (Mithu)",
+    "degree"      : "BCA Cyber Security — Parul University, Surat",
+    "mission"     : "Python Master + Ethical Hacker",
+    "timeline"    : "4 Months Intensive — July → November 2026",
+    "daily_habit" : "1 lesson + 5 exercises + 1 mini project + GitHub push",
+    "end_goal"    : [
+        "Build real penetration testing tools from scratch",
+        "Automate security workflows with Python",
+        "Crack technical interviews at cybersecurity firms",
+        "Contribute to open source security tools"
+    ]
 }
 ```
 
-This repository documents my complete journey from **Python beginner to Ethical Hacker** — with daily commits, real tool builds, and a structured 4-month roadmap focused entirely on cybersecurity.
+> This repository is my **public learning journal** — every concept learned,
+> every bug fixed, every tool built — committed daily and documented professionally.
 
 ---
 
 ## 🗺️ 4-Month Roadmap
 
 ### 🟢 Month 1 — Python Core Foundations
-> **Goal:** Write clean, confident Python code
+> **Goal:** Write clean, confident Python code from scratch
 
 | Week | Topics | Status |
 |:----:|--------|:------:|
-| Week 1 | Variables, Data Types, Operators, Input/Output, Type Casting | ✅ Done |
-| Week 2 | If/Else, Loops, Break/Continue, Patterns, Logic Building | ✅ Done |
-| Week 3 | Functions, Parameters, Return Values, Scope, Recursion, Lambda | ⏳ In Progress |
+| Week 1 | Variables, Data Types, Operators, Input/Output, Type Casting | ✅ Complete |
+| Week 2 | If/Else, Loops, Break/Continue, Patterns, Logic Building | ✅ Complete |
+| Week 3 | Functions, Parameters, Return Values, Scope, Recursion, Lambda | 🔥 In Progress |
 | Week 4 | Lists, Tuples, Dictionaries, Sets, String Manipulation | 🔒 Locked |
 
 > 🏆 **Month 1 Project:** Password Generator + Word Frequency Counter
@@ -59,10 +65,10 @@ This repository documents my complete journey from **Python beginner to Ethical 
 
 | Week | Topics | Status |
 |:----:|--------|:------:|
-| Week 5 | File Handling, Exception Handling, Modules, Packages | 🔒 Locked |
-| Week 6 | OS Module, Sys Module, DateTime, Regular Expressions | 🔒 Locked |
-| Week 7 | OOP — Classes, Objects, Inheritance, Encapsulation | 🔒 Locked |
-| Week 8 | Socket Programming, JSON, API Requests, SQLite | 🔒 Locked |
+| Week 5  | File Handling, Exception Handling, Modules, Packages | 🔒 Locked |
+| Week 6  | OS Module, Sys Module, DateTime, Regular Expressions | 🔒 Locked |
+| Week 7  | OOP — Classes, Objects, Inheritance, Encapsulation | 🔒 Locked |
+| Week 8  | Socket Programming, JSON, API Requests, SQLite | 🔒 Locked |
 
 > 🏆 **Month 2 Project:** File Encryptor + System Information Tool
 
@@ -90,7 +96,7 @@ This repository documents my complete journey from **Python beginner to Ethical 
 | Week 13 | Cryptography, Hashing, Encryption, Decryption, XOR Cipher | 🔒 Locked |
 | Week 14 | Keylogger Theory, Reverse Shell Concepts, Malware Analysis Theory | 🔒 Locked |
 | Week 15 | Web Vulnerability Scanner, SQLi Detector, XSS Detector | 🔒 Locked |
-| Week 16 | DSA Basics, Interview Prep, Portfolio Cleanup | 🔒 Locked |
+| Week 16 | DSA Basics, LeetCode Prep, Interview Questions, Portfolio Cleanup | 🔒 Locked |
 
 > 🏆 **Month 4 Project:** Complete Vulnerability Scanner + Full Pentest Toolkit
 
@@ -98,29 +104,62 @@ This repository documents my complete journey from **Python beginner to Ethical 
 
 ## 📅 Daily Progress Log
 
-| Day | Topic | Files | Status |
-|:---:|-------|-------|:------:|
-| Day 1 | Variables, Data Types, Input/Output | [📁 View](./day-01-variables-io) | ✅ |
-| Day 2 | Operators, Type Casting, Truthiness, XOR | [📁 View](./day-02-operators-typecasting) | ✅ |
-| Day 3 | If/Else, Nested Conditions, Logic Building | [📁 View](./day-03-if-else-logic) | ✅ |
-| Day 4 | Loops — for, while, break, continue | [📁 View](./day-04-loops) | ✅ |
-| Day 5 | Functions, Parameters, Return Values, Scope | 📁 Coming Soon | ⏳ |
+| Day | Topic | Key Concept | Status |
+|:---:|-------|-------------|:------:|
+| [Day 1](./day-01-variables-io/) | Variables, Data Types, Input/Output | Dynamic typing, type casting | ✅ |
+| [Day 2](./day-02-operators-typecasting/) | Operators, Type Casting, Truthiness | XOR, floor division, bool() | ✅ |
+| [Day 3](./day-03-if-else-logic/) | If/Else, Nested Conditions, Logic | Slab billing, login auth | ✅ |
+| [Day 4](./day-04-loops/) | Loops — for, while, break, continue | Port scanner, brute force logic | ✅ |
+| [Day 5](./day-05-functions/) | Functions, Scope, Recursion, Lambda | IP validator, hacker toolkit | ✅ |
+| Day 6 | Lists, Tuples, String Methods | Coming soon | ⏳ |
 
 ---
 
-## 🛠️ Tools I Will Build
+## 🛠️ Tools Being Built
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                    TOOLS ROADMAP                             ║
-╠══════════════════════════════════════════════════════════════╣
-║  Month 1  →  Password Generator, Calculator, Logic Scripts   ║
-║  Month 2  →  File Encryptor, System Info Tool, API Scripts   ║
-║  Month 3  →  Port Scanner, Network Scanner, OSINT Tool,      ║
-║              Hash Cracker, Subdomain Scanner, Recon Tool     ║
-║  Month 4  →  XOR Cipher Tool, Vulnerability Scanner,         ║
-║              SQLi Detector, XSS Detector, Pentest Toolkit    ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════╗
+║                    PENTEST TOOLKIT ROADMAP                       ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  Month 1  →  Password Generator        [⏳ Building]            ║
+║             Calculator, Logic Scripts  [✅ Done]                 ║
+║                                                                  ║
+║  Month 2  →  File Encryptor            [🔒 Locked]              ║
+║             System Info Tool           [🔒 Locked]              ║
+║             API Scripts                [🔒 Locked]              ║
+║                                                                  ║
+║  Month 3  →  Port Scanner              [🔒 Locked]              ║
+║             Network Scanner            [🔒 Locked]              ║
+║             OSINT Tool                 [🔒 Locked]              ║
+║             Hash Cracker               [🔒 Locked]              ║
+║             Subdomain Scanner          [🔒 Locked]              ║
+║             Full Recon Tool            [🔒 Locked]              ║
+║                                                                  ║
+║  Month 4  →  XOR Cipher Tool           [🔒 Locked]              ║
+║             Vulnerability Scanner      [🔒 Locked]              ║
+║             SQLi Detector              [🔒 Locked]              ║
+║             XSS Detector               [🔒 Locked]              ║
+║             Full Pentest Toolkit       [🔒 Locked]              ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 💡 Daily Learning Structure
+
+Every single day follows this strict format:
+
+```
+A. Concept Explanation    → Learn with real-world examples
+B. Code Walkthrough       → Line by line understanding
+C. 5 Exercises            → Write code myself, no copying
+D. Debugging Practice     → Find and fix broken code
+E. Interview Questions    → Answer like in a real interview
+F. Mini Project           → Build something using today's topic
+G. Hacker Application     → Connect concept to cybersecurity
+H. GitHub Push            → Daily commit to this repo
 ```
 
 ---
@@ -128,12 +167,19 @@ This repository documents my complete journey from **Python beginner to Ethical 
 ## 🔐 Hacker Mindset
 
 ```python
+#!/usr/bin/env python3
+# Mission: Python Master + Ethical Hacker
+
 while not_an_expert:
-    learn()
-    practice()
-    build()
-    push_to_github()
+    concept  = learn_today()
+    code     = write_yourself(concept)
+    bugs     = find_and_fix(code)
+    project  = build_something(concept)
+    push     = git_commit_daily(project)
     repeat()
+
+# Target: November 2026
+# Status: Running... Day 5/120
 ```
 
 ---
@@ -142,20 +188,39 @@ while not_an_expert:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=chartreuse-dark&hide_border=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mithleshrana450&theme=chartreuse-dark&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mithleshrana450&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mithleshrana450&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41)
 
 </div>
 
 ---
 
-## 🔗 Connect
+## 🧰 Tech Stack
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mithleshrana450.github.io/mithleshrana-portfolio/)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+</div>
+
+---
+
+## 🔗 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-000000?style=for-the-badge)](https://mithleshrana-portfolio.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mithleshrana450)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mithleshrana450)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mithleshrana)
 
 </div>
 
@@ -163,8 +228,21 @@ while not_an_expert:
 
 <div align="center">
 
-**⭐ Star this repo if you find it useful — it motivates daily commits!**
+### 🎯 Mission Statement
 
-*Built with 💚 by Mithlesh Rana — one commit at a time*
+*"I am not learning Python to get a certificate.*
+*I am learning Python to build tools that matter.*
+*Tools that scan, detect, protect, and automate.*
+*One commit at a time. Every single day."*
+
+**— Mithlesh Rana, July 2026**
+
+---
+
+⭐ **Star this repo** if you find it useful
+
+*Built with 💚 and daily discipline*
+
+![Visitor Count](https://visitor-badge.legalzero.com/badge?page_id=Mithleshrana450.python-zero-to-hacker)
 
 </div>
