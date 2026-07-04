@@ -1,91 +1,245 @@
-# Day 2 — Operators & Type Casting
+<div align="center">
 
-## What I Learned
-- All 7 types of Python operators: Arithmetic, Comparison, Logical,
-  Assignment, Identity, Membership, Bitwise
-- Deep dive into type casting: str → int, str → float, int → str, int → bool
-- Truthiness concept in Python — why 0, "", None are False
+# 🐍 Day 2 — Operators & Type Casting
+
+![Day](https://img.shields.io/badge/Day-2-blue?style=for-the-badge)
+![Phase](https://img.shields.io/badge/Phase-1%20Foundations-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+
+> *"Operators are the weapons of a programmer. Know them all."*
+
+[← Previous Day](../day-01-variables-io/) • [🏠 Home](../README.md) • [Next Day →](../day-03-if-else-logic/)
+
+</div>
+
+---
+
+## 📋 Overview
+
+| | |
+|---|---|
+| 📅 **Date** | July 2026 |
+| 🎯 **Goal** | Master all Python operators and deep type casting |
+| 📦 **Files** | 5 Python files |
+| ✅ **Status** | Complete |
+
+---
+
+## 🧠 What I Learned Today
+
+- 7 types of Python operators — Arithmetic, Comparison, Logical, Assignment, Identity, Membership, Bitwise
 - Floor division `//` vs regular division `/`
-- Modulus `%` operator and how it checks even/odd logic
-- XOR bitwise operator and its role in encryption
-- Assignment shorthand operators: `+=`, `-=`, `*=`, `//=`
+- Modulus `%` — remainder operator, critical for even/odd logic
+- Truthiness — why `0`, `""`, `None` are False
+- Type casting deep dive — every conversion scenario
+- XOR bitwise operator `^` — foundation of encryption
+- Assignment shorthand — `+=`, `-=`, `*=`, `//=`
 
-## Files
-- `arithmetic.py` — All 7 arithmetic operations on user input
-- `gst_calculator.py` — Takes price as string input, casts to float, adds 18% GST
-- `bool_values.py` — Demonstrates truthiness of 0, 1, "", "hacker", None
-- `calculator.py` — Mini calculator taking operator as input from user
+---
 
-## Key Concepts
+## 📁 File Structure
+
+```
+day-02-operators-typecasting/
+│
+├── 📄 arithmetic_operation.py    ← all 7 arithmetic operators
+├── 📄 type_casting.py            ← str→int, float→str, bool casting
+├── 📄 boolean.py                 ← truthiness of 0, 1, "", None
+├── 📄 even_odd.py                ← modulus for even/odd detection
+├── 📄 calculator.py              ← mini calculator with operator input
+├── 📄 gst_calculator.py          ← price + 18% GST calculation
+└── 📄 README.md
+```
+
+---
+
+## 💡 Key Concepts
+
+### 7 Types of Operators
+
+```python
+# Arithmetic
+17 + 5   # 22  addition
+17 - 5   # 12  subtraction
+17 * 5   # 85  multiplication
+17 / 5   # 3.4 division — ALWAYS returns float
+17 // 5  # 3   floor division — ALWAYS returns int
+17 % 5   # 2   modulus (remainder) — critical in hacking logic
+17 ** 5  # 1419857  power
+
+# Comparison — always return True or False
+a == b   # equal to
+a != b   # not equal
+a > b    # greater than
+a >= b   # greater than or equal
+
+# Logical
+and      # both must be True
+or       # at least one must be True
+not      # reverses bool
+
+# Assignment shorthand
+score += 50    # same as score = score + 50
+score -= 30    # same as score = score - 30
+score *= 2     # same as score = score * 2
+```
 
 ### Floor Division vs Regular Division
 ```python
-print(17 / 5)    # 3.4  → always returns float
-print(17 // 5)   # 3    → always returns int (floors the result)
-print(-17 // 5)  # -4   → floors DOWN, not toward zero
+print(17 / 5)     # 3.4  → always float
+print(17 // 5)    # 3    → always int (floors result)
+print(-17 // 5)   # -4   → floors DOWN, not toward zero
 ```
 
-### Truthiness in Python
-Python evaluates values as True or False in conditions.
-Empty = False. Non-empty = True.
+### XOR — Hacker's Operator
 ```python
-bool(0)        # False — zero is falsy
-bool(1)        # True  — non-zero is truthy
-bool("")       # False — empty string is falsy
-bool("hacker") # True  — non-empty string is truthy
-bool(None)     # False — None is always falsy
-```
-
-### XOR — Why Hackers Use It
-XOR (`^`) is a bitwise operator that compares bits of two numbers.
-It is the foundation of many encryption algorithms because:
-- XOR encrypts a value with a key
-- XOR with the SAME key decrypts it back
-- Simple, fast, reversible
-```python
-message   = 72     # ASCII value of 'H'
+# XOR encrypts AND decrypts with same key
+message   = 72      # ASCII value of 'H'
 key       = 25
-encrypted = message ^ key    # encrypt
-decrypted = encrypted ^ key  # decrypt — same operation reverses it
-print(decrypted)             # 72 — back to original
+encrypted = message ^ key    # encrypt → 81
+decrypted = encrypted ^ key  # decrypt → 72 (original)
+# Same XOR operation reverses itself — used in real malware
 ```
-This exact logic appears in real malware analysis and CTF challenges.
 
-### Type Casting Rules
+### Truthiness
 ```python
-# input() ALWAYS returns string — cast before math
-age   = int(input("Enter age: "))
+bool(0)        # False — zero
+bool(1)        # True  — non-zero
+bool("")       # False — empty string
+bool("hacker") # True  — non-empty string
+bool(None)     # False — None always falsy
+```
+
+---
+
+## 🏋️ Exercises Completed
+
+| # | Exercise | Concept Practiced | Status |
+|---|----------|-------------------|--------|
+| 1 | All 7 arithmetic operations | Arithmetic operators | ✅ |
+| 2 | Even/odd checker with % | Modulus operator | ✅ |
+| 3 | GST calculator with input() | Type casting + math | ✅ |
+| 4 | Score to 750 using 3 operators | Assignment operators | ✅ |
+| 5 | Bool values with comments | Truthiness | ✅ |
+
+---
+
+## 🔨 Mini Project — Calculator
+
+**What it does:**
+Takes two numbers and an operator as input,
+returns the correct result, handles divide by zero
+
+```python
+a  = int(input("Enter first number: "))
+b  = int(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+
+if op == "+":
+    print("Result:", a + b)
+elif op == "-":
+    print("Result:", a - b)
+elif op == "*":
+    print("Result:", a * b)
+elif op == "/":
+    if b == 0:
+        print("Cannot divide by zero")
+    else:
+        print("Result:", a / b)
+else:
+    print("Invalid operator")
+```
+
+---
+
+## 🐛 Debugging Practice
+
+| # | Bug | Fix |
+|---|-----|-----|
+| 1 | `a = input()` then `a + b` | Cast both with `int()` |
+| 2 | String concatenation instead of addition | `int(input())` |
+
+---
+
+## ❓ Interview Questions
+
+**Q1: What is the difference between `/` and `//`?**
+> `/` always returns float. `//` always returns int (floor division).
+> `-17 // 5` gives `-4`, not `-3` — it floors downward.
+
+**Q2: What does `bool("")` return and why?**
+> Returns False. Python has a truthiness concept — empty containers
+> and zero values are always False because they represent nothing.
+
+**Q3: Why can't you do `"Error: " + 404`?**
+> Python cannot concatenate str and int directly.
+> Must cast: `"Error: " + str(404)`
+
+---
+
+## ❌ Mistakes I Made
+
+```python
+# WRONG — hardcoded value
+price = ("249.99")   # unnecessary parentheses + not using input()
+
+# CORRECT
 price = float(input("Enter price: "))
 
-# Can't mix str and int in concatenation
-code    = 404
-message = "Error: " + str(code)   # must cast int to str first
+# WRONG — jumped to answer in one step
+score = 500
+score += 250   # reached 750 in one operator — missed the point
+
+# CORRECT — use multiple operators
+score = 500
+score += 300   # 800
+score -= 100   # 700
+score += 50    # 750
 ```
 
-## Mistakes I Made Today
-- Used hardcoded values instead of input() in Exercise 3 (GST)
-- Used unnecessary parentheses around string values: ("249.99") → "249.99"
-- Jumped to 750 in one step in Exercise 4 instead of using multiple operators
-- Calculator didn't take operator as input — printed all results at once
+---
 
-## What I Learned From Mistakes
-- Always use input() when the requirement says "take from user"
-- Parentheses around a single value don't make a tuple — they're just noise
-- Exercises are designed to teach a concept — don't shortcut them
-- A real calculator takes ONE operation as input and returns ONE result
+## 🔐 Hacker Application
 
-## Hacker Application
-- Port scanners use arithmetic operators to calculate port ranges
-- Modulus `%` is used in brute force loop logic
-- XOR `^` is the base of encryption/decryption scripts
-- Type casting is critical — port numbers, IPs must be correct types
-  before being passed into socket connections
+```python
+# Port range calculation — used in every scanner
+start_port = 1
+end_port   = 1024
+total      = end_port - start_port + 1
+print("Scanning", total, "ports")   # 1024
 
-## Interview Questions Answered
-1. `/` always returns float. `//` always returns int (floor division)
-2. `bool("")` returns False — empty string is falsy in Python
-3. You cannot concatenate str and int directly — must cast with str()
+# Even/odd logic used in hash analysis
+hash_val = int("a3f2", 16)          # hex to int
+print("Even hash?" , hash_val % 2 == 0)
 
-## Status
-✅ Day 2 Complete — Operators, Type Casting, Truthiness, XOR intro
-📁 Repo: https://github.com/Mithleshrana450/python-zero-to-hacker
+# XOR cipher — base of real encryption tools
+def xor_encrypt(text, key):
+    return ''.join(chr(ord(c) ^ key) for c in text)
+
+encrypted = xor_encrypt("HACK", 42)
+decrypted = xor_encrypt(encrypted, 42)   # same key decrypts
+print(decrypted)   # HACK
+```
+
+---
+
+## 📊 Day Score
+
+| Category | Score |
+|----------|-------|
+| Exercises | 4/5 |
+| Debug Fix | ✅ |
+| Mini Project | ✅ |
+| Interview Qs | ✅ |
+| GitHub Push | ✅ |
+| **Total** | **8/10** |
+
+---
+
+<div align="center">
+
+**[← Previous Day](../day-01-variables-io/)** • **[🏠 Back to Home](../README.md)** • **[Next Day →](../day-03-if-else-logic/)**
+
+*Part of [Python for Ethical Hacking — 4 Month Journey](../README.md)*
+
+</div>
