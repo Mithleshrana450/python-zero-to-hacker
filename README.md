@@ -189,16 +189,21 @@ while not_an_expert:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Mithleshrana450&theme=tokyonight&hide_border=true)
+<br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mithleshrana450&layout=compact&theme=tokyonight&hide_border=true)
+<img src="https://streak-stats.demolab.com/?user=Mithleshrana450&theme=tokyonight&hide_border=true" />
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mithleshrana450&theme=tokyo-night&hide_border=true)
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mithleshrana450&layout=compact&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mithleshrana450&theme=tokyo-night&hide_border=true" />
 
 </div>
-
 ---
 
 ## 🧰 Tech Stack
