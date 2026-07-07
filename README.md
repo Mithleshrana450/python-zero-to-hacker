@@ -189,11 +189,13 @@ while not_an_expert:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mithleshrana450&show_icons=true&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mithleshrana450&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)
+![GitHub Streak](https://streak-stats.demolab.com?user=Mithleshrana450&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mithleshrana450&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mithleshrana450&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mithleshrana450&theme=tokyo-night&hide_border=true)
 
 </div>
 
@@ -243,7 +245,5 @@ while not_an_expert:
 ⭐ **Star this repo** if you find it useful
 
 *Built with 💚 and daily discipline*
-
-![Visitor Count](https://visitor-badge.legalzero.com/badge?page_id=Mithleshrana450.python-zero-to-hacker)
 
 </div>
