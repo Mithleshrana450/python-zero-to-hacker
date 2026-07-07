@@ -12,7 +12,7 @@
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-5-blue?style=flat-square)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-6-blue?style=flat-square)
 ![Current Phase](https://img.shields.io/badge/Phase-1%20Foundations-orange?style=flat-square)
 ![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
@@ -53,8 +53,8 @@ hacker = {
 |:----:|--------|:------:|
 | Week 1 | Variables, Data Types, Operators, Input/Output, Type Casting | ✅ Complete |
 | Week 2 | If/Else, Loops, Break/Continue, Patterns, Logic Building | ✅ Complete |
-| Week 3 | Functions, Parameters, Return Values, Scope, Recursion, Lambda | 🔥 In Progress |
-| Week 4 | Lists, Tuples, Dictionaries, Sets, String Manipulation | 🔒 Locked |
+| Week 3 | Functions, Parameters, Return Values, Scope, Recursion, Lambda | ✅ Complete |
+| Week 4 | Lists, Tuples, Dictionaries, Sets, String Manipulation | 🔥 In Progress |
 
 > 🏆 **Month 1 Project:** Password Generator + Word Frequency Counter
 
@@ -111,7 +111,8 @@ hacker = {
 | [Day 3](./day-03-if-else-logic/) | If/Else, Nested Conditions, Logic | Slab billing, login auth | ✅ |
 | [Day 4](./day-04-loops/) | Loops — for, while, break, continue | Port scanner, brute force logic | ✅ |
 | [Day 5](./day-05-functions/) | Functions, Scope, Recursion, Lambda | IP validator, hacker toolkit | ✅ |
-| Day 6 | Lists, Tuples, String Methods | Coming soon | ⏳ |
+| [Day 6](./day-06-lists-tuples/) | Lists, Tuples, Comprehension | enumerate, unpacking, lambda sort | ✅ |
+| Day 7 | Dictionaries & Sets | Coming soon | ⏳ |
 
 ---
 
@@ -179,7 +180,7 @@ while not_an_expert:
     repeat()
 
 # Target: November 2026
-# Status: Running... Day 5/120
+# Status: Running... Day 6/120
 ```
 
 ---
