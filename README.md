@@ -12,7 +12,7 @@
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-7-blue?style=flat-square)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-8-blue?style=flat-square)
 ![Current Phase](https://img.shields.io/badge/Phase-1%20Foundations-orange?style=flat-square)
 ![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
@@ -113,7 +113,8 @@ hacker = {
 | [Day 5](./day-05-functions/) | Functions, Scope, Recursion, Lambda | IP validator, hacker toolkit | ✅ |
 | [Day 6](./day-06-lists-tuples/) | Lists, Tuples, Comprehension | enumerate, unpacking, lambda sort | ✅ |
 | [Day 7](./day-07-dictionaries-sets/) | Dictionaries, Sets, Recon Report | hash tables, set ops, nested dicts | ✅ |
-| Day 8 | String Manipulation | Coming soon | ⏳ |
+| [Day 8](./day-08-string-manipulation/) | String Manipulation, Caesar Cipher | split(), any(), ord(), chr() | ✅ |
+| Day 9 | File Handling & Exception Handling | Coming soon | ⏳ |
 
 ---
 
@@ -181,7 +182,7 @@ while not_an_expert:
     repeat()
 
 # Target: November 2026
-# Status: Running... Day 7/120
+# Status: Running... Day 8/120
 ```
 
 ---
