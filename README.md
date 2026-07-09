@@ -12,7 +12,7 @@
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-6-blue?style=flat-square)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-7-blue?style=flat-square)
 ![Current Phase](https://img.shields.io/badge/Phase-1%20Foundations-orange?style=flat-square)
 ![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
@@ -112,7 +112,8 @@ hacker = {
 | [Day 4](./day-04-loops/) | Loops — for, while, break, continue | Port scanner, brute force logic | ✅ |
 | [Day 5](./day-05-functions/) | Functions, Scope, Recursion, Lambda | IP validator, hacker toolkit | ✅ |
 | [Day 6](./day-06-lists-tuples/) | Lists, Tuples, Comprehension | enumerate, unpacking, lambda sort | ✅ |
-| Day 7 | Dictionaries & Sets | Coming soon | ⏳ |
+| [Day 7](./day-07-dictionaries-sets/) | Dictionaries, Sets, Recon Report | hash tables, set ops, nested dicts | ✅ |
+| Day 8 | String Manipulation | Coming soon | ⏳ |
 
 ---
 
@@ -180,7 +181,7 @@ while not_an_expert:
     repeat()
 
 # Target: November 2026
-# Status: Running... Day 6/120
+# Status: Running... Day 7/120
 ```
 
 ---
