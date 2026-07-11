@@ -13,7 +13,7 @@
 
 ![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
 ![Days Completed](https://img.shields.io/badge/Days%20Completed-10-blue?style=flat-square)
-![Current Phase](https://img.shields.io/badge/Phase-1%20Foundations-orange?style=flat-square)
+![Current Phase](https://img.shields.io/badge/Phase-2%20Intermediate-orange?style=flat-square)
 ![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
 
@@ -54,9 +54,9 @@ hacker = {
 | Week 1 | Variables, Data Types, Operators, Input/Output, Type Casting | ✅ Complete |
 | Week 2 | If/Else, Loops, Break/Continue, Patterns, Logic Building | ✅ Complete |
 | Week 3 | Functions, Parameters, Return Values, Scope, Recursion, Lambda | ✅ Complete |
-| Week 4 | Lists, Tuples, Dictionaries, Sets, String Manipulation | 🔥 In Progress |
+| Week 4 | Lists, Tuples, Dictionaries, Sets, String Manipulation | ✅ Complete |
 
-> 🏆 **Month 1 Project:** Password Generator + Word Frequency Counter
+> 🏆 **Month 1 Project:** Password Generator + Word Frequency Counter ✅
 
 ---
 
@@ -65,10 +65,10 @@ hacker = {
 
 | Week | Topics | Status |
 |:----:|--------|:------:|
-| Week 5  | File Handling, Exception Handling, Modules, Packages | 🔒 Locked |
-| Week 6  | OS Module, Sys Module, DateTime, Regular Expressions | 🔒 Locked |
-| Week 7  | OOP — Classes, Objects, Inheritance, Encapsulation | 🔒 Locked |
-| Week 8  | Socket Programming, JSON, API Requests, SQLite | 🔒 Locked |
+| Week 5  | File Handling, Exception Handling, Modules, Regex | 🔥 In Progress |
+| Week 6  | OOP — Classes, Objects, Inheritance, Encapsulation | 🔒 Locked |
+| Week 7  | Socket Programming, JSON, API Requests, SQLite | 🔒 Locked |
+| Week 8  | OS Module, Sys Module, DateTime, Subprocess | 🔒 Locked |
 
 > 🏆 **Month 2 Project:** File Encryptor + System Information Tool
 
@@ -120,31 +120,37 @@ hacker = {
 
 ---
 
-## 🛠️ Tools Being Built
+## 🛠️ Tools Built So Far
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
 ║                    PENTEST TOOLKIT ROADMAP                       ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║                                                                  ║
-║  Month 1  →  Password Generator        [⏳ Building]            ║
-║             Calculator, Logic Scripts  [✅ Done]                 ║
+║  Month 1  →  Password Validator        [✅ Done — Day 8]        ║
+║             Caesar Cipher             [✅ Done — Day 8]         ║
+║             Port Scanner Simulator    [✅ Done — Day 4]         ║
+║             Brute Force Simulator     [✅ Done — Day 4]         ║
+║             Hacker Toolkit Functions  [✅ Done — Day 5]         ║
+║             Target Manager           [✅ Done — Day 6]          ║
+║             Network Recon Report      [✅ Done — Day 7]         ║
+║             Log Analyzer             [✅ Done — Day 10]         ║
+║             OSINT Extractor           [✅ Done — Day 10]        ║
+║             Hash Checker              [✅ Done — Day 10]        ║
+║             Recon File Manager        [✅ Done — Day 9]         ║
 ║                                                                  ║
 ║  Month 2  →  File Encryptor            [🔒 Locked]              ║
 ║             System Info Tool           [🔒 Locked]              ║
-║             API Scripts                [🔒 Locked]              ║
+║             Socket Port Scanner        [🔒 Locked]              ║
 ║                                                                  ║
-║  Month 3  →  Port Scanner              [🔒 Locked]              ║
+║  Month 3  →  Full Port Scanner         [🔒 Locked]              ║
 ║             Network Scanner            [🔒 Locked]              ║
-║             OSINT Tool                 [🔒 Locked]              ║
-║             Hash Cracker               [🔒 Locked]              ║
 ║             Subdomain Scanner          [🔒 Locked]              ║
 ║             Full Recon Tool            [🔒 Locked]              ║
 ║                                                                  ║
 ║  Month 4  →  XOR Cipher Tool           [🔒 Locked]              ║
 ║             Vulnerability Scanner      [🔒 Locked]              ║
 ║             SQLi Detector              [🔒 Locked]              ║
-║             XSS Detector               [🔒 Locked]              ║
 ║             Full Pentest Toolkit       [🔒 Locked]              ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
@@ -185,6 +191,8 @@ while not_an_expert:
 
 # Target: November 2026
 # Status: Running... Day 10/120
+# Month 1: ✅ Complete — Python Core Foundations
+# Month 2: 🔥 In Progress — Intermediate + System Skills
 ```
 
 ---
@@ -208,6 +216,7 @@ while not_an_expert:
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mithleshrana450&theme=tokyo-night&hide_border=true" />
 
 </div>
+
 ---
 
 ## 🧰 Tech Stack
