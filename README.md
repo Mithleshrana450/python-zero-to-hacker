@@ -12,7 +12,7 @@
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-🔥%20Active-brightgreen?style=flat-square)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-11-blue?style=flat-square)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-12-blue?style=flat-square)
 ![Current Phase](https://img.shields.io/badge/Phase-2%20Intermediate-orange?style=flat-square)
 ![Start Date](https://img.shields.io/badge/Started-July%202026-purple?style=flat-square)
 ![Target](https://img.shields.io/badge/Target-November%202026-red?style=flat-square)
@@ -117,7 +117,8 @@ hacker = {
 | [Day 9](./day-09-file-handling/) | File Handling, Exception Handling | with open(), try/except, os module | ✅ |
 | [Day 10](./day-10-modules-regex/) | Modules, Regex, OSINT Extractor | hashlib, sys.argv, findall, named groups | ✅ |
 | [Day 11](./day-11-oop/) | OOP — Classes, Inheritance, Polymorphism | super(), magic methods, composition | ✅ |
-| Day 12 | Socket Programming | Coming soon | ⏳ |
+| [Day 12](./day-12-socket-programming/) | Socket Programming, Port Scanner | connect_ex, threading, banner grab | ✅ |
+| Day 13 | JSON & API Requests | Coming soon | ⏳ |
 
 ## 🛠️ Tools Built So Far
 
@@ -189,7 +190,7 @@ while not_an_expert:
     repeat()
 
 # Target: November 2026
-# Status: Running... Day 11/120
+# Status: Running... Day 12/120
 # Month 1: ✅ Complete — Python Core Foundations
 # Month 2: 🔥 In Progress — Intermediate + System Skills
 ```
